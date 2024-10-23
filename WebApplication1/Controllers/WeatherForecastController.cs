@@ -31,7 +31,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecastById")]
-        public IEnumerable<WeatherForecast> GetById(int ById)
+        public IEnumerable<WeatherForecast> GetById(int ByIdDeatailsS)
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
